@@ -19,12 +19,6 @@
             android:title="@string/system_navigation_title"
             android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings" />
 
-        <SwitchPreference
-            android:key="navbar_gesture_pill_switch"
-            android:title="@string/navbar_gesture_pill_toggle_title"
-            android:summary="@string/navbar_gesture_pill_toggle_summary"
-            android:defaultValue="false" />
-
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="navigation_bar_compact_layout"
             android:title="@string/navigation_bar_compact_layout_title"
@@ -63,6 +57,14 @@
             android:key="navigation_app_switch_long_press"
             android:dialogTitle="@string/navigation_bar_app_switch_long_press_title"
             android:title="@string/navigation_bar_app_switch_long_press_title"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="navigation_bar_edge_long_swipe"
+            android:dialogTitle="@string/navigation_bar_edge_long_swipe_title"
+            android:title="@string/navigation_bar_edge_long_swipe_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false" />
