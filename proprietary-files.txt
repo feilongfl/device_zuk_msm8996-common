@@ -307,13 +307,15 @@ product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a763bb1bbeecb84723bff6f547a3b23fab68dee3
 product/lib64/libdpmctmgr.so|09cc44a0d23b595a0facda6fc4c25f2e7f348b4b
 product/lib64/libdpmfdmgr.so|473001f18645adbc220a09bb6d9f75c4cb522477
-product/lib64/libdpmframework.so|b0e41a86e3d4b1bfd19e9fe152346fc86e67a478
 product/lib64/libdpmtcm.so|8205c269384941cdf728a8491666f06a518842c4
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk|cd3fc5c9f5dade06083cfbb2ff3443b668ae4a29
 vendor/bin/dpmQmiMgr|f15665f1f51dc1a446f012f63075633254718ece
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a763bb1bbeecb84723bff6f547a3b23fab68dee3
 vendor/lib64/libdpmqmihal.so|4c24c2cff6c95e8bbb1aebc654db75479965abda
+
+# DPM - from lmi - RKQ1.200826.002
+system_ext/lib64/libdpmframework.so:product/lib64/libdpmframework.so|902496fb2f5471f3f415f8ba7dd7e053
 
 # DRM and SEE - from LA.UM.7.5.r1-04800-8x96.0
 vendor/bin/qseecomd|191536bdf3d72238ea7b3ca54b4289b7a09b4bcd
