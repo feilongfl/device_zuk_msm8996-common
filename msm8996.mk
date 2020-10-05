@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.wlan.sh \
+    init.safailnet.rc \
     ueventd.qcom.rc
 
 # ConfigPanel
