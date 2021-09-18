@@ -80,6 +80,9 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/HAL3 \
         $(call project-path-for,qcom-media)/libstagefrighthw \
         $(call project-path-for,qcom-media)/mm-core/inc \
+        $(call project-path-for,qcom-display)/gralloc \
+        $(call project-path-for,qcom-display)/libqdutils \
+        $(call project-path-for,qcom-display)/include \
         $(TARGET_OUT_HEADERS)/mm-camera-lib/cp/prebuilt
 
 #HAL 1.0 Include paths
